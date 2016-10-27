@@ -23,16 +23,16 @@ public class Conta {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome() {
+        this.nome =JOptionPane.showInputDialog("Nome ");
     }
 
     public String getnConta() {
         return nConta;
     }
 
-    public void setnConta(String nConta) {
-        this.nConta = nConta;
+    public void setnConta() {
+        this.nConta =JOptionPane.showInputDialog("Numero de conta" );
     }
 
     public double getSaldo() {

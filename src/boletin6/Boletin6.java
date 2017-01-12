@@ -19,6 +19,7 @@ public class Boletin6 {
         c1.transferencia(c2);
         c1.visualizar();
         c2.visualizar();
+        //Modificacion para Pablo por Contornos
     }
     
 }
